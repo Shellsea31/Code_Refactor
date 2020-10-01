@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/*This controls the menu at the top of the page*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,20 +16,23 @@ header {
     color: #ffffff;
 }
 
+/*This controls the letters Hori-n is Horiseon*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*This controls the letters seo in Horiseon*/
 header h1 .seo {
     color: #d9dcd6;
 }
+
 
 header menu {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* inherited from HEADER font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     font-size: 20px;
 }
 
@@ -50,11 +54,10 @@ p {
     font-size: 16px;
 }
 
-.hero {
-    height: 800px;
+.hero img{
+    height: 100%;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
